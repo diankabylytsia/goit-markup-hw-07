@@ -1,15 +1,15 @@
-.working {
+.work {
   padding-top: 47px;
 }
-.work-list {
+.work__list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-.work-item {
+.work__item {
   position: relative;
 }
-.title {
+.work__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -18,7 +18,7 @@
   color: var(--top-color);
   margin-bottom: 50px;
 }
-.work-text {
+.work__text {
   position: absolute;
   bottom: 0;
   color: #ffffff;

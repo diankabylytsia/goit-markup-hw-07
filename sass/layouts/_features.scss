@@ -1,7 +1,7 @@
 .features {
   padding-bottom: 47px;
 }
-.features-image {
+.features__image {
   width: 270px;
   height: 120px;
   background: var(--small-color);
@@ -12,12 +12,12 @@
   justify-content: center;
 }
 
-.features-list {
+.features__list {
   display: flex;
   gap: 30px;
 }
 
-.features-list-title {
+.features__title {
   font-weight: 700;
   font-size: var(--main-fs);
   line-height: 1.14;
@@ -28,7 +28,7 @@
   width: 270px;
   margin-bottom: 10px;
 }
-.features-text {
+.features__text {
   font-size: var(--main-fs);
   line-height: 1.71;
   letter-spacing: 0.03em;
